@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fourthAPI", "fourthAPI.csproj", "{43C649BD-CA65-4481-B86F-83EC90F52886}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43C649BD-CA65-4481-B86F-83EC90F52886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C649BD-CA65-4481-B86F-83EC90F52886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C649BD-CA65-4481-B86F-83EC90F52886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C649BD-CA65-4481-B86F-83EC90F52886}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4C69A69-404D-4AFA-847B-9CE3F2A5A80B}
+	EndGlobalSection
+EndGlobal
