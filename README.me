@@ -1,0 +1,29 @@
+Description:
+-This repository contains the backend API for a TODO List Web Application. 
+The API is built with ASP.NET Core 7.0 and provides CRUD operations for managing TODOs,
+as well as features for filtering and sorting TODO items, with team features such as role-based access control, 
+and real-time collaboration
+
+Features:
+-A team can have many todo groups, which is for containing a set of items
+-In the dashboard of todoItems, user can filter and sort by status, due date, priority, tags etc
+-Users are required to have a account in order to use the service
+-There are two roles: Admin and Member. At the beginning of registration, users need to select the team they belong,
+only admins are allowed to create todo groups for teams, and allowed to see the todo groups belong to other team.
+
+API design:
+-Please consult "swagger20231007" in the same level of directory
+
+Database designs:
+-Postgres 16.0 is used to be the database.
+-A team can have many users
+-A team can have many todo groups
+-A todo group can have many todo items
+-A user must belong to one team
+
+Authentication:
+-Bcrypt is used for authnetication and authorization
+-JWT is created with a set of claims and is signed using HMAC-SHA512
+
+Run:
+-In visuall studio, click startup button to run the server. The startup will include a swagger page that documents the API. 
